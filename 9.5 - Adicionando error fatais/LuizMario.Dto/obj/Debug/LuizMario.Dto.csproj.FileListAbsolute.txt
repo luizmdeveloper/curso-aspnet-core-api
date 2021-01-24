@@ -1,0 +1,11 @@
+C:\Users\Luiz Mário\source\repos\finaceiro-api\LuizMario.Dto\bin\Debug\LuizMario.Dto.dll
+C:\Users\Luiz Mário\source\repos\finaceiro-api\LuizMario.Dto\bin\Debug\LuizMario.Dto.pdb
+C:\Users\Luiz Mário\source\repos\finaceiro-api\LuizMario.Dto\obj\Debug\LuizMario.Dto.csproj.CoreCompileInputs.cache
+C:\Users\Luiz Mário\source\repos\finaceiro-api\LuizMario.Dto\obj\Debug\LuizMario.Dto.dll
+C:\Users\Luiz Mário\source\repos\finaceiro-api\LuizMario.Dto\obj\Debug\LuizMario.Dto.pdb
+C:\Users\Luiz Mário\source\repos\finaceiro-api\LuizMario.Dto\obj\Debug\LuizMario.Dto.csprojAssemblyReference.cache
+C:\Users\Luiz Mário\source\repos\curso-aspnet-core-api\9.5 - Adicionando error fatais\LuizMario.Dto\bin\Debug\LuizMario.Dto.dll
+C:\Users\Luiz Mário\source\repos\curso-aspnet-core-api\9.5 - Adicionando error fatais\LuizMario.Dto\bin\Debug\LuizMario.Dto.pdb
+C:\Users\Luiz Mário\source\repos\curso-aspnet-core-api\9.5 - Adicionando error fatais\LuizMario.Dto\obj\Debug\LuizMario.Dto.csproj.CoreCompileInputs.cache
+C:\Users\Luiz Mário\source\repos\curso-aspnet-core-api\9.5 - Adicionando error fatais\LuizMario.Dto\obj\Debug\LuizMario.Dto.dll
+C:\Users\Luiz Mário\source\repos\curso-aspnet-core-api\9.5 - Adicionando error fatais\LuizMario.Dto\obj\Debug\LuizMario.Dto.pdb

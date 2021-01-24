@@ -1,0 +1,21 @@
+﻿using Domain.Infraestructure.Notifications;
+using LuizMario.Domain.Core.Repository;
+using LuizMario.Domain.Core.Service;
+using Microsoft.Extensions.DependencyInjection;
+using MySql.Data.MySqlClient;
+using System.Data;
+
+namespace finaceiro_api.Config
+{
+    public static class ResolverDependencyConfig
+    {
+        public static void Resolver(this IServiceCollection services) 
+        {
+            services.AddScoped<IDbConnection, MySqlConnection>();
+            services.AddScoped<INotification, Notification>();
+
+            services.AddScoped<CategoryRepository>();
+            services.AddScoped<CategoryService>();
+        }
+    }
+}
