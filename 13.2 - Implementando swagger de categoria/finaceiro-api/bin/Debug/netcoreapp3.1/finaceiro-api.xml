@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>finaceiro-api</name>
+    </assembly>
+    <members>
+        <member name="M:finaceiro_api.Controllers.CategoryController.Get(LuizMario.Dto.Filter.CategoryFilterDto)">
+            <summary>
+            Find all categories
+            </summary>
+            <param name="Name"></param> 
+            <param name="Page"></param> 
+            <param name="Size"></param> 
+            <response code="200">Returns content then category</response>
+        </member>
+        <member name="M:finaceiro_api.Controllers.CategoryController.GetById(System.Int32)">
+            <summary>
+            Find category by id
+            </summary>
+            <param name="categoryId"></param> 
+            <response code="200">Return if exists category</response>
+            <response code="404">Return if not exists category</response>
+        </member>
+        <member name="M:finaceiro_api.Controllers.CategoryController.Save(LuizMario.Domain.Core.Entity.Category)">
+            <summary>
+            Insert category
+            </summary>
+            <response code="201">Return save success</response>
+            <response code="400">Return attribute invalid</response>
+        </member>
+        <member name="M:finaceiro_api.Controllers.CategoryController.Update(System.Int32,LuizMario.Domain.Core.Entity.Category)">
+            <summary>
+            Update category
+            </summary>
+            <response code="200">Return update success</response>
+            <response code="400">Return attribute invalid</response>
+            <response code="404">Return if not exists category</response>
+        </member>
+        <member name="M:finaceiro_api.Controllers.CategoryController.Delete(System.Int32)">
+            <summary>
+            Update category
+            </summary>
+            <response code="204">Return delete success</response>
+            <response code="404">Return if not exists category</response>        
+        </member>
+    </members>
+</doc>
