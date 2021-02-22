@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>finaceiro_api</RootNamespace>
+    <NoWin32Manifest>true</NoWin32Manifest>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>C:\Users\Luiz Mário\source\repos\finaceiro-api\finaceiro-api\finaceiro-api.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.78" />
+    <PackageReference Include="Dapper.Contrib" Version="2.0.78" />
+    <PackageReference Include="MySql.Data" Version="8.0.23" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="6.0.5" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="6.0.5" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.8.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LuizMario.Domain.Core\LuizMario.Domain.Core.csproj" />
+    <ProjectReference Include="..\LuizMario.Dto\LuizMario.Dto.csproj" />
+  </ItemGroup>
+
+
+</Project>

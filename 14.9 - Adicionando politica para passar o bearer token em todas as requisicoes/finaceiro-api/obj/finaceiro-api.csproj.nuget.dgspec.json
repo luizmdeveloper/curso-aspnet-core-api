@@ -1,0 +1,148 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Luiz Mário\\source\\repos\\finaceiro-api\\finaceiro-api\\finaceiro-api.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Luiz Mário\\source\\repos\\finaceiro-api\\Domain.Infraestructure\\Domain.Infraestructure.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Luiz Mário\\source\\repos\\finaceiro-api\\Domain.Infraestructure\\Domain.Infraestructure.csproj",
+        "projectName": "Domain.Infraestructure",
+        "projectPath": "C:\\Users\\Luiz Mário\\source\\repos\\finaceiro-api\\Domain.Infraestructure\\Domain.Infraestructure.csproj"
+      },
+      "frameworks": {
+        "net461": {}
+      }
+    },
+    "C:\\Users\\Luiz Mário\\source\\repos\\finaceiro-api\\finaceiro-api\\finaceiro-api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Luiz Mário\\source\\repos\\finaceiro-api\\finaceiro-api\\finaceiro-api.csproj",
+        "projectName": "finaceiro-api",
+        "projectPath": "C:\\Users\\Luiz Mário\\source\\repos\\finaceiro-api\\finaceiro-api\\finaceiro-api.csproj",
+        "packagesPath": "C:\\Users\\Luiz Mário\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Luiz Mário\\source\\repos\\finaceiro-api\\finaceiro-api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Luiz Mário\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Luiz Mário\\source\\repos\\finaceiro-api\\LuizMario.Domain.Core\\LuizMario.Domain.Core.csproj": {
+                "projectPath": "C:\\Users\\Luiz Mário\\source\\repos\\finaceiro-api\\LuizMario.Domain.Core\\LuizMario.Domain.Core.csproj"
+              },
+              "C:\\Users\\Luiz Mário\\source\\repos\\finaceiro-api\\LuizMario.Dto\\LuizMario.Dto.csproj": {
+                "projectPath": "C:\\Users\\Luiz Mário\\source\\repos\\finaceiro-api\\LuizMario.Dto\\LuizMario.Dto.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.78, )"
+            },
+            "Dapper.Contrib": {
+              "target": "Package",
+              "version": "[2.0.78, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Authorization": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.23, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerGen": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUI": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.8.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Luiz Mário\\source\\repos\\finaceiro-api\\LuizMario.Domain.Core\\LuizMario.Domain.Core.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Luiz Mário\\source\\repos\\finaceiro-api\\LuizMario.Domain.Core\\LuizMario.Domain.Core.csproj",
+        "projectName": "LuizMario.Domain.Core",
+        "projectPath": "C:\\Users\\Luiz Mário\\source\\repos\\finaceiro-api\\LuizMario.Domain.Core\\LuizMario.Domain.Core.csproj",
+        "frameworks": {
+          "net461": {
+            "projectReferences": {
+              "C:\\Users\\Luiz Mário\\source\\repos\\finaceiro-api\\Domain.Infraestructure\\Domain.Infraestructure.csproj": {
+                "projectPath": "C:\\Users\\Luiz Mário\\source\\repos\\finaceiro-api\\Domain.Infraestructure\\Domain.Infraestructure.csproj"
+              },
+              "C:\\Users\\Luiz Mário\\source\\repos\\finaceiro-api\\LuizMario.Dto\\LuizMario.Dto.csproj": {
+                "projectPath": "C:\\Users\\Luiz Mário\\source\\repos\\finaceiro-api\\LuizMario.Dto\\LuizMario.Dto.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net461": {}
+      }
+    },
+    "C:\\Users\\Luiz Mário\\source\\repos\\finaceiro-api\\LuizMario.Dto\\LuizMario.Dto.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Luiz Mário\\source\\repos\\finaceiro-api\\LuizMario.Dto\\LuizMario.Dto.csproj",
+        "projectName": "LuizMario.Dto",
+        "projectPath": "C:\\Users\\Luiz Mário\\source\\repos\\finaceiro-api\\LuizMario.Dto\\LuizMario.Dto.csproj"
+      },
+      "frameworks": {
+        "net461": {}
+      }
+    }
+  }
+}

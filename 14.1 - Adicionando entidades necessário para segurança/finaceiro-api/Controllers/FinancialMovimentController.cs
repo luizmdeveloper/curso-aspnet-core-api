@@ -18,6 +18,16 @@ namespace finaceiro_api.Controllers
             this._service = service;
         }
 
+        /// <summary>
+        /// Find all moviment financial
+        /// </summary>
+        /// <param name="From"></param> 
+        /// <param name="To"></param> 
+        /// <param name="Category"></param> 
+        /// <param name="Person"></param> 
+        /// <param name="Page"></param> 
+        /// <param name="Size"></param> 
+        /// <response code="200">Returns content then moviment financial</response>
         [HttpGet]
         public ActionResult<ResponsePaginationDto<FinancialMoviment>> Search([FromQuery] FinancialMovimentFilterDto filter) 
         {
