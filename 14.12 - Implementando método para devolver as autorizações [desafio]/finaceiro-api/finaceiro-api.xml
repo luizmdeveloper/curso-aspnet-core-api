@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>finaceiro-api</name>
+    </assembly>
+    <members>
+        <member name="M:finaceiro_api.Controllers.AuthenticationController.GenerationToken(LuizMario.Dto.Input.UserInputDto)">
+            <summary>
+            Authorization user.
+            </summary> 
+            <returns>Access token</returns>
+            <response code="200">Return success</response>
+            <response code="400">Return error validation</response>
+        </member>
+        <member name="M:finaceiro_api.Controllers.AuthenticationController.RefreshToken(LuizMario.Dto.Input.RefreshTokenInputDto)">
+            <summary>
+            Renew token.
+            </summary> 
+            <returns>Access token</returns>
+            <response code="200">Return success</response>
+            <response code="400">Return error validation</response>
+            <response code="401">Return no authentication</response>
+        </member>
+        <member name="M:finaceiro_api.Controllers.AuthenticationController.Logout(LuizMario.Dto.Input.LogoutInputDto)">
+            <summary>
+            Logout.
+            </summary> 
+            <response code="204">Return success</response>
+            <response code="400">Return error validation</response>
+            <response code="401">Return no authentication</response>
+        </member>
+        <member name="M:finaceiro_api.Controllers.AuthorityController.FindAllByProfile(System.Int32)">
+            <summary>
+             Finnd all by profile 
+            </summary> 
+            <returns>Authorities</returns>
+            <response code="200">Return success</response>
+            <response code="404">Return not exists</response>
+            <response code="401">User not authenticed</response>
+        </member>
+        <member name="M:finaceiro_api.Controllers.CategoryController.Get(LuizMario.Dto.Filter.CategoryFilterDto)">
+            <summary>
+            Find all categories
+            </summary>
+            <param name="Name"></param> 
+            <param name="Page"></param> 
+            <param name="Size"></param> 
+            <response code="200">Returns content then category</response>
+        </member>
+        <member name="M:finaceiro_api.Controllers.CategoryController.GetById(System.Int32)">
+            <summary>
+            Find category by id
+            </summary>
+            <param name="categoryId"></param> 
+            <response code="200">Return if exists category</response>
+            <response code="404">Return if not exists category</response>
+        </member>
+        <member name="M:finaceiro_api.Controllers.CategoryController.Save(LuizMario.Domain.Core.Entity.Category)">
+            <summary>
+            Insert category
+            </summary>
+            <response code="201">Return save success</response>
+            <response code="400">Return attribute invalid</response>
+        </member>
+        <member name="M:finaceiro_api.Controllers.CategoryController.Update(System.Int32,LuizMario.Domain.Core.Entity.Category)">
+            <summary>
+            Update category
+            </summary>
+            <response code="200">Return update success</response>
+            <response code="400">Return attribute invalid</response>
+            <response code="404">Return if not exists category</response>
+        </member>
+        <member name="M:finaceiro_api.Controllers.CategoryController.Delete(System.Int32)">
+            <summary>
+            Update category
+            </summary>
+            <response code="204">Return delete success</response>
+            <response code="404">Return if not exists category</response>        
+        </member>
+    </members>
+</doc>
